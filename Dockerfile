@@ -2,7 +2,7 @@
 # Epiphany is built on top of WebKitGTK 2.34.1
 # WEBDRIVER=/usr/bin/WebKitWebDriver -p 5555 --host=127.0.0.1
 # http://localhost:5555/status -> ready
-FROM seleniarm/node-base:latest
+FROM selenium/node-base:latest
 
 USER root
 
